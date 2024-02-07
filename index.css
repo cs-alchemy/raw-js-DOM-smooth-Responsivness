@@ -1,0 +1,99 @@
+
+body { 
+
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+
+    background: url(./pexels-mo-eid-8347501.jpg);
+    background-size: cover;
+
+    transition: all 200ms ease-in-out;
+}
+
+.wlcmTxt { 
+    color: #d08e87;
+    text-align: center;
+
+    font-size: 3rem;
+    
+}
+
+.screen { 
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.myBox{
+
+  width: 30%; 
+  height: 60%;
+  margin-right: 5vw;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.myField { 
+
+
+    /* background-color: #d18f87; */
+    background-color: #f1a89f;
+
+    border: 2px solid white;
+
+    height: 7vh;
+    margin-top: 32px; 
+
+    border-radius: 32px;
+
+    font-size: 1.5rem;
+    padding: 10px;
+
+    color: #76544f;
+}
+
+#signUp{
+
+text-align: center;
+
+}
+#signUpId:hover{
+
+    color: #fac5bf;
+    font-size: 1.6rem;
+
+    
+    }
+#signUpId {
+    color: #dea59f;
+    text-align: center;
+    font-size: 1.5rem;
+
+    transition: all 100ms ease;
+
+}
+
+
+@media (max-width:850px) {
+    
+body { 
+
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+
+    background: url(./pexels-mo-eid-8347501.jpg);
+    background-size: cover; 
+
+    background-position: 50% 50%;
+
+}
+}
